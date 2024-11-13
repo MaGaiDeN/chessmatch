@@ -2,8 +2,8 @@
   max-width: 1200px;
   margin: 0 auto;
   padding: 20px;
-  background-color: #2f2f2f;
-  color: white;
+  background-color: var(--secondary-color);
+  color: var(--text-light);
 }
 
 .header {
@@ -21,8 +21,13 @@
 }
 
 .btn-login {
-  background-color: #82b54b;
-  color: white;
+  background-color: var(--primary-color);
+  color: var(--text-light);
+}
+
+.btn-signup {
+  background-color: var(--button-dark);
+  color: var(--text-light);
 }
 
 .play-options button {
@@ -39,10 +44,42 @@
 }
 
 .play-online-btn {
-  background-color: #82b54b !important;
+  background-color: var(--primary-color) !important;
+}
+
+.play-computer-btn {
+  background-color: var(--button-dark) !important;
+}
+
+.solve-puzzles-btn {
+  background-color: var(--primary-color);
+}
+
+.chess-today-btn {
+  background-color: var(--button-dark);
+}
+
+/* Hover effects */
+.btn-login:hover,
+.play-online-btn:hover,
+.solve-puzzles-btn:hover {
+  background-color: var(--button-hover) !important;
+}
+
+.btn-signup:hover,
+.play-computer-btn:hover,
+.chess-today-btn:hover {
+  background-color: #3d5166 !important;
 }
 
 .puzzles-section {
   margin-top: 40px;
   text-align: center;
+}
+
+/* Ajustes para el tablero de ajedrez */
+.chess-board-container {
+  background-color: var(--button-dark);
+  padding: 10px;
+  border-radius: 8px;
 } 

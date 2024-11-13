@@ -1,0 +1,19 @@
+:root {
+  /* Colores principales */
+  --primary-dark: #1a1b2e;     /* Azul oscuro profundo - fondo principal */
+  --primary-light: #e9ecef;    /* Gris claro - texto y piezas blancas */
+  
+  /* Colores del tablero */
+  --square-light: #d5e5f2;     /* Azul muy claro - casillas blancas */
+  --square-dark: #4b6584;      /* Azul grisáceo - casillas negras */
+  
+  /* Colores de acento */
+  --accent-primary: #3867d6;   /* Azul royal - movimientos y selecciones */
+  --accent-success: #20bf6b;   /* Verde esmeralda - movimientos válidos */
+  --accent-danger: #eb3b5a;    /* Rojo cereza - alertas y jaques */
+  
+  /* Colores de UI */
+  --ui-background: #2d3446;    /* Gris azulado - fondos secundarios */
+  --ui-border: #45aaf2;        /* Azul claro - bordes y separadores */
+  --ui-text-muted: #8395a7;    /* Gris medio - texto secundario */
+} 
